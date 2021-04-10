@@ -1,29 +1,46 @@
 //Questions for the test
-var questions = [
+var question = [
     {
     question: "Inside which HTML element do we put the JavaScript?",
-    rightAnswer:"<script>",
-    wrongAnswers:["java", "Java.index", "scripting.index"],
-
+    answers:[
+        {text: "<script>",correct: true},
+        {text: "Java.index",correct: false},
+        {text: "java",correct: false},
+        {text: "scripting.index", correct: false},
+    ]
 },
 {
     question:"Which of the following would not create a varible",
-    rightAnswer: "function",
-    wrongAnswers: ["const","let","var"],
+    answers:[
+        {text:"function",correct: true},
+        {text:"const",correct: false},
+        {text:"let", correct: false},
+        {text:"var", correct: false}
+    ]
 },
 {
     question:"Where is the correct place to insert a JavaScript?",
-    rightAnswer: "Both the <head> section and the <body> section are correct", 
-    wrongAnswers: ["The <body> section","The <head> section"],
+    answers:[
+        {text:"The <body> section",correct: false},
+        {text:"The <head> section",correct: false},
+        {text:"npm i JavaScript", correct: false},
+        {text:"Both the <head> section and the <body> section are correct", correct: true}
+    ]
 },
 {
     question:"What is the correct syntax for referring to an external script called xxx.js?",
-    rightAnswer:"<script name=”xxx.js”>", 
-    wrongAnswers: ["<script href=”xxx.js”>","<script href=”xxx.js”>"],
+    answers:[
+        {text:"<script href=”xxx.js”>",correct: false},
+        {text:"<script name=”xxx.js”>",correct: true},
+        {text:"<javascript name>", correct: false},
+        {text:"<script href=”xxx.js”>", correct: false}
+    ]
 },
 {
     question:"The external JavaScript file must contain the <script> tag",
-    rightAnswer:"False",
-    wrongAnswers: ["True"],
-},
+    answers:[
+        {text:"True",correct: false},
+        {text:"False",correct: true},
+    ]
+}
 ]
