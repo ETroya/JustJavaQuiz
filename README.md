@@ -24,4 +24,4 @@ By clicking Bring the Heat it should take you to your exam. This will be a time 
 
 ## Screenshots
 
-![](/assets/images/frontpage.png)
+<img src="/assets/images/frontpage.PNG" width="100"> 
