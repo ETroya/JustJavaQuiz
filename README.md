@@ -9,7 +9,6 @@ Have what it takes to understanding JavaScript... Take the Quiz and find out!
 
 
 ## User Story
-
 ```
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
@@ -24,3 +23,5 @@ By clicking Bring the Heat it should take you to your exam. This will be a time 
 *Javascript
 
 ## Screenshots
+
+* ![frontpage](frontpage.PNG)
