@@ -10,7 +10,7 @@ var question = [
     ]
 },
 {
-    question:"Which of the following would not create a varible",
+    question:"Which of the following would not create a variable",
     answers:[
         {text:"function",correct: true},
         {text:"const",correct: false},
